@@ -83,8 +83,8 @@ $Controller.rowSlice = function (row, start, end) {
 	var indexBefore = 0;
 	var controller = this;
 	var $cell, colspan, indexAfter, diff;
-	if (!end) {
-		end = this.getRowTotal(row);
+	if (end === null || end === undefined) {
+		end = Infinity;
 	}
 	$cells.each(function () {
 		$cell = $(this);
