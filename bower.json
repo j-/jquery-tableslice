@@ -1,0 +1,28 @@
+{
+  "name": "jquery-tableslice",
+  "version": "0.1.0",
+  "homepage": "https://github.com/j-/jquery-tableslice",
+  "authors": [
+    "Jamie Hoeks <j@skeoh.com>"
+  ],
+  "description": "Extract columns from a table",
+  "main": "jquery.tableslice.js",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "jquery",
+    "plugin",
+    "table",
+    "slice",
+    "columns"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
