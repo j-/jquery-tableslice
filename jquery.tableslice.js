@@ -1,3 +1,8 @@
+/*!
+ * jQuery table slice plugin
+ * @author Jamie Hoeks <j@skeoh.com>
+ * @license MIT
+ */
 (function ($) {
 
 var CONTROLLER_KEY = 'tableslice-controller';
