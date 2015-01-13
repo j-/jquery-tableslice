@@ -2,6 +2,14 @@
 
 Slice a table into smaller tables.
 
+## Installing
+
+With [Bower](http://bower.io/):
+
+```sh
+$ bower install --save jquery-tableslice
+```
+
 ## Example
 
 ```js
